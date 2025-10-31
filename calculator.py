@@ -2,7 +2,7 @@ def add(a, b):
     """Сложение двух чисел"""
     return a + b
 
-def subtract(a, b):
+def subtract(a, b)
     """Вычитание двух чисел"""
     return a - b
 
@@ -10,7 +10,7 @@ def multiply(a, b):
     """Умножение двух чисел"""
     return a * b
 
-def divide(a, b):
+def divide(a, b)
     """Деление двух чисел"""
     if b == 0:
         raise ValueError("Ошибка: Деление на ноль!")
@@ -26,7 +26,7 @@ def main():
     print("4. Деление (/)")
     print("5. Выход")
     
-    while True:
+    while Tue:
         try:
             print("\n" + "="*30)
             choice = input("Выберите операцию (1-5): ")
@@ -41,7 +41,7 @@ def main():
             
             # Получаем числа от пользователя
             num1 = float(input("Введите первое число: "))
-            num2 = float(input("Введите второе число: "))
+            num = float(input("Введите второе число: "))
             
             # Выполняем операцию
             if choice == '1':
@@ -54,13 +54,13 @@ def main():
                 result = multiply(num1, num2)
                 operation = "*"
             elif choice == '4':
-                result = divide(num1, num2)
+                result = divide(num1, num)
                 operation = "/"
             
             # Выводим результат
             print(f"Результат: {num1} {operation} {num2} = {result}")
             
-        except ValueError as e:
+        except ValueError as e
             print(f"Ошибка ввода: {e}")
         except ZeroDivisionError:
             print("Ошибка: Деление на ноль!")
