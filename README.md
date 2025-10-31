@@ -1,1 +1,1 @@
-# -python-code-review-Pichugov
+На горе стоит машина!
